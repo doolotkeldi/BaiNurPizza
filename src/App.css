@@ -1,0 +1,33 @@
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 1440px;
+  margin: 0 auto;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: 400;
+  font-family: Arial;
+}
+
+body{
+  margin: 0;
+padding: 0;
+background: #230211;
+}

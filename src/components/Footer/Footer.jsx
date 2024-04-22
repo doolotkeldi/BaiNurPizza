@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
+    <div style={{height:"800px"}}>
       footer
     </div>
   )
