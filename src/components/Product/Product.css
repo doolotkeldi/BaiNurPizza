@@ -1,0 +1,41 @@
+.block-image{
+    width: 230px;
+    height: 230px;
+
+}
+.block-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block{
+    width: 270px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.block>h1{
+    font-size: 18px;
+    color:#ffa700 ;
+}
+.block>button{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #c52d2f;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.block>button:hover{
+    background-color: aqua;
+}
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+}
